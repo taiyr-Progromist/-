@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт цветочная Радость </title>
+    <link rel="stylesheet" href="stuli/styli.css">
+    <script src="js/jquery-3.6.0.min (4).js"></script>
+</head>
+<body>
+    <header class="header">
+        <h1> Радость</h1>
+        <nav>
+            <ul class="nav-list">
+
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Цена</a></li>
+                <li><a href="#">Адрес</a></li>
+                <li><a href="#">Оставить заявку</a></li>
+            </ul>
+        </nav>
+    </header>
+<main class="main">
+       <section class="price-main">
+    <h1>НАШИ ЦВЕТЫ</h1>
+    <div class="img-price">
+        <div class="card-price">
+            <img src="img/img_6862 1.png" alt="Анемон">
+            <h3>Анемон</h3>
+        </div>
+        <div class="card-price">
+            <img src="img/img_6852.png" alt="Аллиум">
+            <h3>Аллиум</h3>
+        </div>
+        <div class="card-price">
+            <img src="img/1c1a802e-346a-4d95-82c2-12ff446930a1 1.png" alt="Бруния">
+            <h3>Бруния</h3>
+        </div>
+    
+        <div class="img-price hidden">
+            <div class="card-price">
+                <img src="img/img_6779 1.png" alt="Гениста">
+                <h3>Гениста</h3>
+            </div>
+            <div class="card-price">
+                <img src="img/img_6849 1.png" alt="Илекс">
+                <h3>Илекс</h3>
+            </div>
+        </div>
+    </div>
+    <button class="btn-price">Показать еще</button>
+</section>
+        <section class="Our-adres">
+            <h1>НАШ АДРЕС</h1>
+                <div class="img-adres">
+                    <img src="img/img1111 1.png" alt="">
+                    </div>
+        </section>
+        <section class="contact">
+            <div class="card-contact">
+                <h1>ОСТАВИТЬ ЗАЯВКУ НА ЗВОНОК</h1>
+                 <p> Оставтье заявку и мы вам позвоним в свободное время</p>
+                 <form action="/" class="form">
+                    <div class="input-group">
+                        <label for="text">ВАШ НОМЕР ТЕЛЕФОНА</label>
+                        <input type="text" id="number" placeholder="+7 (___) ___-__-__">
+                    </div>
+                    <div class="input-group">
+                        <label for="text">ВАШЕ ИМЯ</label>
+                        <input type="text" name="name" id="name "placeholder="(Не обязательно)">
+                    </div>    
+                    <div class="input-group">
+                        <input type="submit" value="отправить" class="btn-sumbit">
+                    </div>
+                                                 </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <hr>
+        <h1>РАДОСТЬ</h1>
+        <div class="link-footer">
+            
+            <a href="#">О нас</a>
+            <a href="#">Адрес</a>
+            <a href="#">Цена</a>
+            <a href="#">Оставить заявку</a>
+            <p><a href="#">Договор конфидицеальности клиента</a></p>
+        </div>
+        <p>2026 ВСЕ ПРОВА ЗАЩЕШИНЫ</p>
+    </footer>
+    <script src="js/index.js"></script>
+    
+</body>
+</html>
